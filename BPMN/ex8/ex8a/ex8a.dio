@@ -57,19 +57,19 @@
                 <mxCell id="17" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="16">
                     <mxGeometry x="30" y="130" width="50" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="" style="edgeStyle=none;html=1;" edge="1" parent="16" source="20">
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="16" source="20" target="22">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="360" y="155.00000000000023" as="targetPoint"/>
+                        <mxPoint x="360" y="155" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="20" value="Chercher le fournisseur le moins cher&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="16">
-                    <mxGeometry x="160" y="115" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="120" y="115" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="16" source="17" target="20">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="Chercher le nombre d&#39;article à commander" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="16">
-                    <mxGeometry x="360" y="115" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="290" y="115" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="Passer commande" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="16">
                     <mxGeometry x="540" y="115" width="120" height="80" as="geometry"/>
